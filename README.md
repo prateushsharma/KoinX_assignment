@@ -1,4 +1,7 @@
 KoinX Assignment
+
+Deployed here using free service of render
+https://koinx-assignment-w5bs.onrender.com
 Description
 This project is part of the KoinX assignment and is designed to fetch transactions and balance for a given address.
 
