@@ -1,10 +1,35 @@
-KoinX assignment
+KoinX Assignment
+Description
+This project is part of the KoinX assignment and is designed to fetch transactions and balance for a given address.
 
+Installation
+To install the dependencies, run the following command:
 
-run the follwoing commands
+bash
+Copy code
+npm install
+Usage
+To fetch transactions, run the following command:
 
-npm i
-to install all the dependencies
-
+bash
+Copy code
 node index.js
-to get transaction
+To fetch transactions for a specific address, use the following endpoint:
+
+bash
+Copy code
+GET /transactions/:address
+To fetch the balance for a specific address, use the following endpoint:
+
+bash
+Copy code
+GET /balance/:address
+Replace :address with the actual address you want to fetch transactions or balance for.
+
+Dependencies
+axios for making HTTP requests
+express for creating a web server
+dotenv for managing environment variables
+Configuration
+Ensure you have a .env file in the root directory with the following environment variables:
+
