@@ -8,19 +8,19 @@ This project is part of the KoinX assignment and is designed to fetch transactio
 Installation
 To install the dependencies, run the following command:
 
-bash
-Copy code
+
+Copy code:
 npm install
 Usage
 To fetch transactions, run the following command:
 
-bash
-Copy code
+
+Copy code:
 node index.js
 To fetch transactions for a specific address, use the following endpoint:
 
-bash
-Copy code
+
+Copy code:
 GET /transactions/:address
 To fetch the balance for a specific address, use the following endpoint:
 
